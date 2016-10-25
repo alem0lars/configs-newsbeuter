@@ -37,7 +37,7 @@ end -%>
 
 
 <% local!(:feeds).each do |feed| %>
-  <%= feed[:url] %> <%= feed[:tags].join(" ") %>
+<%= feed[:url] %> <%= feed[:tags].join(" ") %>
 <% end %>
 
 

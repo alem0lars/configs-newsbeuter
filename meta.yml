@@ -5,4 +5,4 @@ elems:
     only: f?newsbeuter
 
 
-# vim: set filetype=eruby.vim :
+# vim: set filetype=eruby.yaml :
