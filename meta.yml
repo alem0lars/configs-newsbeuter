@@ -1,0 +1,8 @@
+elems:
+
+  - src:  ^(urls)$
+    dst:  ~/.newsbeuter/<1>
+    only: f?newsbeuter
+
+
+# vim: set filetype=eruby.vim :
