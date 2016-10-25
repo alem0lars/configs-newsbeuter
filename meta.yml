@@ -1,6 +1,6 @@
 elems:
 
-  - src:  ^(urls)$
+  - src:  ^(urls|config)$
     dst:  ~/.newsbeuter/<1>
     only: f?newsbeuter
 

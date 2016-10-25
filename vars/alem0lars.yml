@@ -1,7 +1,15 @@
 # => inherits: generic <= #
 
 
-news:
+downloads_dir: /data/downloads
+
+newsbeuter:
+  web_browser:   firefox
+  url_viewer:    furlview
+  html_renderer: w3m -dump -T text/html
+  reload:
+    time: 32 # minutes
+    parallelism: 4
   feeds: # {{{
     - url: https://blog.forallsecure.com/feed
       tags:
