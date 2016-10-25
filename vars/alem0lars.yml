@@ -3,6 +3,9 @@
 
 news:
   feeds: # {{{
+    - url: blog.forallsecure.com/feed
+      tags:
+        - security
     - url: http://socialengineer.podbean.com/feed
       tags:
         - podcasts
