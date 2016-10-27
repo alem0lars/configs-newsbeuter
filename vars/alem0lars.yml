@@ -11,6 +11,15 @@ newsbeuter:
     time: 32 # minutes
     parallelism: 4
   feeds: # {{{
+    - url: http://keenlab.tencent.com/en/atom.xml
+      tags:
+        - security
+        - mobile
+        - embedded
+    - url: http://www.vmray.com/blog/feed
+      tags:
+        - security
+        - sandbox-evasion
     - url: https://blog.forallsecure.com/feed
       tags:
         - security
