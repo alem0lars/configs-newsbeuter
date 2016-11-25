@@ -1,0 +1,5 @@
+newsbeuter:
+  web_browser:   firefox
+
+
+# vim: set filetype=eruby.yaml :

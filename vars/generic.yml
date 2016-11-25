@@ -1,3 +1,10 @@
+newsbeuter:
+  url_viewer:    furlview
+  html_renderer: w3m -dump -T text/html
+  reload:
+    time: 32 # minutes
+    parallelism: 4
+
 features:
   - newsbeuter
 

@@ -1,16 +1,5 @@
-# => inherits: generic <= #
-
-
-downloads_dir: /data/downloads
-
 newsbeuter:
-  web_browser:   firefox
-  url_viewer:    furlview
-  html_renderer: w3m -dump -T text/html
-  reload:
-    time: 32 # minutes
-    parallelism: 4
-  feeds: # {{{
+  feeds:
     - url: http://keenlab.tencent.com/en/atom.xml
       tags:
         - security
@@ -434,7 +423,6 @@ newsbeuter:
     - url: https://www.usenix.org/upcoming-conferences-feed
       tags:
         - conferences
-# }}}
 
 
 # vim: set filetype=eruby.yaml :
